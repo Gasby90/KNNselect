@@ -7,3 +7,5 @@ What does it 'Gasby_KNNselect.m' do? It calculates KNN scores distances for k=1 
 What does 'Gasby_HyperKNNselect.m' do? It calculates the KNN distance for K = 1 and K = n, then calculates the local minima for the whole dataset. Once the minima of the KNN distance with K = 1 and the minima of the KNN distance with K = n have been calculated, it uses the logical vectors obtained to select the data (i.e. if the i-th sample is a local minimum it is included alternatively the sample is excluded).  Please note: it is recommended to use this function for removing outliers. The function selects the most significant samples within the entire data set.
 
 Functions were thought for working within MATLAB® 2020 and with the toolbox PLS_toolbox ver. 8.2 (Eigenvector Inc).
+
+[![DOI](https://zenodo.org/badge/274704246.svg)](https://zenodo.org/badge/latestdoi/274704246)
